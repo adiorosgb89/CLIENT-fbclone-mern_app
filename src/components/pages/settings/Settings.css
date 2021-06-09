@@ -1,0 +1,45 @@
+.test {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.align .form-group {
+    align-items: initial !important;
+
+
+}
+
+.align h1 {
+    color: #4267B2;
+}
+
+
+button:focus,
+button:active {
+    box-shadow: 5px 5px 10px grey !important;
+
+    outline: none !important;
+}
+
+.profile_pic {
+    max-width: 75px;
+    min-width: 75px;
+    border-radius: 50%;
+    max-height: 75px;
+    background-position: center;
+    background-size: contain;
+}
+
+#profilePic {
+    display: none !important;
+}
+
+.delete {
+    background-color: rgb(255, 50, 50) !important;
+}
+
+.delete:hover {
+    background-color: rgb(255, 126, 126) !important;
+}

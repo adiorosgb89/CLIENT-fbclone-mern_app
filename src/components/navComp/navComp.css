@@ -1,0 +1,106 @@
+ul .nav-item a {
+    color: #4267B2;
+}
+
+ul .nav-item a:hover {
+    color: white;
+    transition: all ease 0.3s;
+}
+
+ul {
+    border-top: 1px solid #4267B2;
+    background-color: white;
+}
+
+.active {
+    background-color: #4267B2;
+    color: white !important;
+}
+
+ul .disabled:hover {
+    background-color: white !important;
+    color: #6c757d !important;
+}
+
+ul .nav-item {
+    width: 33.3%;
+    text-align: center;
+    transition: all ease 0.3s;
+}
+
+ul .nav-item:hover {
+    background-color: #4267B2;
+
+}
+
+.d-block .top-nav {
+    align-items: initial !important;
+}
+
+.w {
+    max-width: 25px;
+    min-width: 25px;
+    border-radius: 50%;
+    max-height: 25px;
+    min-height: 25px;
+    background-position: center;
+    background-size: contain;
+}
+
+
+
+
+.top-nav input {
+    display: none;
+    border-radius: 10px;
+    border: none;
+    width: 50%;
+    outline: none;
+}
+
+.top-nav {
+    background-color: #4267B2;
+}
+
+.nameclass:hover,
+.fa-search:hover,
+.logo:hover {
+    cursor: pointer;
+}
+
+.nameclass a {
+    color: white;
+    font-weight: 500;
+
+}
+
+.top-nav img {
+    margin: 0 5px;
+}
+
+.top-nav h1,
+.top-nav p,
+.top-nav i {
+    color: white;
+}
+
+.fitContent {
+    height: fit-content !important;
+}
+
+.align {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#root div:first-of-type {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}

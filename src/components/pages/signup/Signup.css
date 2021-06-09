@@ -1,0 +1,59 @@
+.form-group,
+form h1 {
+    color: #4267B2;
+}
+
+h1,
+h2 {
+    color: #4267B2;
+}
+
+.Login {
+    align-items: initial !important;
+}
+
+.form-control:focus {
+    border-color: #4267B2;
+    box-shadow: none;
+}
+
+.Login .form-group {
+    align-items: initial !important;
+}
+
+.btn {
+    background-color: #4267B2;
+    color: white;
+    box-shadow: 5px 5px 10px grey;
+    transition: all ease 0.3s;
+    border: none;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background-color: #6f8cc5;
+    border: none;
+}
+
+button:focus,
+button:active {
+    box-shadow: 5px 5px 10px grey;
+    ;
+    outline: none;
+}
+
+.signinbtn {
+    width: fit-content !important;
+    align-self: center !important;
+}
+
+@media all and (min-width: 480px) {
+    .Login {
+        padding: 60px 0;
+    }
+
+    .Login form {
+        margin: 0 auto;
+        max-width: 320px;
+    }
+}
